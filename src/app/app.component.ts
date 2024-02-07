@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Feature } from './header/header.component';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +6,4 @@ import { Feature } from './header/header.component';
 })
 export class AppComponent {
   title = 'angular-course-project';
-  loadedFeature: Feature = 'recipe';
-  onNavigate(feature: Feature) {
-    this.loadedFeature = feature;
-  }
 }
