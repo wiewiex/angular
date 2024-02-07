@@ -15,7 +15,11 @@
 <div class="row">
   <div class="col-xs-12">
     <div class="btn-group" appDropdown>
-      <button type="button" class="btn-primary dropdown-toggle">
+      <button
+        type="button"
+        class="btn-primary dropdown-toggle"
+        style="cursor: pointer"
+      >
         Manage Recipe
         <span class="caret"></span>
       </button>
@@ -25,8 +29,8 @@
             >Add Ingredients to Shopping List</a
           >
         </li>
-        <li><a>Edit Recipe</a></li>
-        <li><a>Delete Recipe</a></li>
+        <li routerLink="edit" style="cursor: pointer"><a>Edit Recipe</a></li>
+        <li style="cursor: pointer"><a>Delete Recipe</a></li>
       </ul>
     </div>
   </div>
